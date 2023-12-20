@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+    <title>Viera Yorensky's Webiste</title>
+</head>
+<body>
+    
+<!-- Navigation -->
+    <nav>
+        <div class="nav-items">
+            <div class="nav-logo">
+                <img src="assets/nav-logo.png" alt="Revou Main Logo" width="40px" height="40px">
+            </div>
+            <div class="nav-buttons">
+                <a href="index.html">
+                    <button id="nav-home-button">Home</button>
+                </a>
+                <a href="our-profile.html">
+                    <button id="nav-our-profile-button">Our Profile</button>
+                </a>
+                <a href="achievement.html">
+                    <button id="nav-achievement-button">Achievement</button>
+                </a>
+                <a href="message-us.html">
+                    <button id="nav-message-us-button">Message Us</button>
+                </a>
+            </div>
+            
+        </div>
+    </nav>
+
+<!-- Main Header -->
+    <main>
+        <div class="main-page-container">
+            <div class="top-left-text">
+                <h2>Hi <span id="name-span"><em>Your Name</em></span>, Welcome To Website</h2>
+                <p>Ini adalah website latihan pertama</p>
+            </div>
+            <div id="main-page-image">
+                <img src="assets/main-image-2.webp" alt="Gambar Utama">
+            </div>
+        </div>
+    </main>
+
+<!-- Header 2 -->
+    <div class="main-header-2">
+        <div class="main-header-2-title">
+            <h2>Our Facilities</h2>
+        </div>
+        <div class="main-header-2-items">
+            <div class="main-header-2-item-1">
+                <div id="main-header-2-item-image-1" style="background-image: url('assets/professional-teacher.jpeg')"></div>
+                <h5>Professional Teacher</h5>
+            </div>
+            <div class="main-header-2-item-2">
+                <div id="main-header-2-item-image-2" style="background-image: url('assets/sport-facilities.avif')"></div>
+                <h5>Sport Field</h5>
+            </div>
+            <div class="main-header-2-item-3">
+                <div id="main-header-2-item-image-3" style="background-image: url('assets/classroom.avif')"></div>
+                <h5>Classroom</h5>
+            </div>
+        </div>
+    </div>
+
+<!-- Header 3 -->
+    <div class="main-header-3">
+        <div class="main-header-3-title">
+            <h2>Message Us</h2>
+        </div>
+
+<!-- Form -->
+        <div class="main-header-3-container">
+            <form class="form-1">
+                <table class="form-1-table">
+                    <tr>
+                        <td style="vertical-align: middle;">Nama:</td>
+                        <td><input type="text" id="nama" name="nama" placeholder="Nama" style="width:300px;"></td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;">Tanggal Lahir:</td>
+                        <td><input type="date" id="tanggal-lahir" name="tanggal-lahir" style="width:303px;"></td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;">Jenis Kelamin:</td>
+                        <td>
+                            <input type="radio" class="form-1-radio-input" id="Laki-laki" name="jenis-kelamin" value="Laki-laki">
+                            <label for="Laki-laki" class="form-1-radio-label">Laki-laki</label>
+                            <input type="radio" class="form-1-radio-input" id="Perempuan" name="jenis-kelamin" value="Perempuan">
+                            <label for="Perempuan" class="form-1-radio-label">Perempuan</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;">Pesan:</td>
+                        <td><textarea name="pesan" rows="5" cols="30" placeholder="Pesan" style="width:300px;"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" id="submit" value="Submit" style="width:100%; text-align: center;"></td>
+                    </tr>
+                </table>     
+            </form>
+            <div class="form-result">
+                <p><strong>Current Time: </strong><span>No Input</span></p>
+                <br>
+                <p><strong>Nama: </strong><span>No Input</span></p>
+                <p><strong>Tanggal Lahir: </strong><span>No Input</span></p>
+                <p><strong>Jenis Kelamin: </strong><span>No Input</span></p>
+                <p><strong>Pesan: </strong><span>No Input</span></p>
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+    <footer>
+        <p>Created by RevoU</p>
+    </footer>
+
+<!-- Script -->
+    <script src="js/script.js">
+    </script>
+</body>
+</html>

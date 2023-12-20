@@ -1,0 +1,183 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: solid black;
+}
+
+nav{
+    border: 2px solid black;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-logo {
+    margin-left: 30px;
+}
+
+.nav-buttons {
+    margin-right: 60px;
+    display: flex;
+}
+
+.nav-buttons button{
+    width: 90px;
+    height: 25px;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+/* Main Section */
+
+main{
+    border: 2px solid black;
+}
+
+.main-page-container{
+    height: 510px;
+}
+
+.top-left-text {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#main-page-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#main-page-image img{
+    width: 25%;
+}
+
+/* Main Header 2 (Our Facilities) */
+
+.main-header-2{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+}
+
+.main-header-2-title{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.main-header-2-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 20px;
+    width: 550px;
+}
+
+#main-header-2-item-image-1{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-position: 0 5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#main-header-2-item-image-2{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-position: -55px 0px;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+#main-header-2-item-image-3{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-position: -55px 0px;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+/* Main Header 3 */
+
+.main-header-3{
+    border: 2px solid black;
+    height: 340px;
+}
+
+.main-header-3-title{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.main-header-3-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Form */
+
+.form-1{
+    font-size: 11px;
+    margin-left: 8px;
+}
+
+.form-1-radio-input{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-1-radio-label{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+::placeholder{
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+}
+
+.form-result{
+    border: 1px solid black;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+
+.form-result p{
+    margin: 0;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid black;
+    height: 80px;
+}
+
+footer p{
+    margin-right: 40px;
+}
